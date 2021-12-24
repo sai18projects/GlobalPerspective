@@ -3,7 +3,7 @@ var title = document.getElementById('title');
 var maincontext = document.getElementById('main-content');
 function content() {
   if ((value = 'TRR')) {
-    title.innerHTML = 'Team Research Report';
+    title.innerHTML = "Team Research Report";
     maincontext.innerHTML = 'test!';
   }
 }
