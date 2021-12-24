@@ -7,8 +7,11 @@ function content() {
   var maincontext = document.getElementById('main-content');
 
   if (value == 'TRR') {
-    console.log('hi');
     title.textContent = 'Team Research Report';
-    maincontext.innerHTML = 'test!';
+    maincontext.innerHTML = 'Work in Progress!!';
+
+  } else if(value= 'Home'){
+    title.textContent = 'What is Gp?';
+    maincontext.innerHTML = ' Global Perspectives is a subject in which  students at education develop outstanding transferable skills, including critical thinking, research and collaboration. It is fun place in which where research an have fun ';
   }
 }

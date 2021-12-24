@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
-.h2 {
+#main {
   font-family: 'Comfortaa', cursive;
+  text-align: center;
 }
+
+#main-content {
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+#title {
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+#content {
+  font-family: 'Comfortaa', cursive;
+  margin-top: 1rem;
+  margin-left: 7rem;
+}
+
+
+
+
