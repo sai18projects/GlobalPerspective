@@ -2,28 +2,35 @@ document.getElementById('hi').style.display = 'none';
 var value = document.getElementById('content').value;
 var title = document.getElementById('title');
 
-var maincontext = document.getElementById('main-content');
 var gp =
   'Global Perspectives is a subject in which  students at education develop outstanding transferable skills, including critical thinking, research and collaboration. It is fun place in which where do research and have fun. For 6th Grade we did reseach on the continet called Ocienia, Induvidual Research Report, Team Research Report and many more';
 
 function content() {
   var value = document.getElementById('content').value;
   var title = document.getElementById('title');
-  var maincontext = document.getElementById('main-content');
+  var homeContent = document.getElementById('home-content');
 
   if (value == 'TRR') {
     title.textContent = 'Team Research Report';
-    maincontext.innerHTML = 'Work in Progress!!';
-    document.getElementById('hi').style.display = 'none';
+    homeContent.innerHTML = 'Work in Progress!!';
+
+    homeContent.style.display = 'block';
+    document.getElementById('irr').style.display = 'none';
   } else if (value == 'Home') {
-    alert('Hi');
     title.textContent = 'What is Global Perspective?';
-    maincontext.innerHTML =
+    homeContent.innerHTML =
       'Global Perspectives is a subject in which  students at education develop outstanding transferable skills, including critical thinking, research and collaboration. It is fun place in which where do research and have fun. For 6th Grade we did reseach on the continet called Ocienia, Induvidual Research Report, Team Research Report and many more';
-    document.getElementById('hi').style.display = 'none';
+
+    homeContent.style.display = 'block';
+    document.getElementById('irr').style.display = 'none';
   } else if (value == 'IRR') {
     title.innerHTML = 'Induvidual Research Report';
-    maincontext.style.display = 'none';
-    document.getElementById('hi').style.display = 'block';
+
+    homeContent.style.display = 'none';
+    document.getElementById('irr').style.display = 'block';
+  } else if (value == 'Liberty') {
+    title.innerHTML = '';
+
+    document.getElementById('Liberty').style.display = 'block';
   }
 }
