@@ -32,6 +32,6 @@ function content() {
   } else if (value == 'Liberty') {
     title.innerHTML = 'Work in progress';
 
-    document.getElementById('Liberty').style.display = 'block';
+    //document.getElementById('Liberty').style.display = 'block';
   }
 }
