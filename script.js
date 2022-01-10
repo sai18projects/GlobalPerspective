@@ -28,8 +28,9 @@ function content() {
 
     homeContent.style.display = 'none';
     document.getElementById('irr').style.display = 'block';
+
   } else if (value == 'Liberty') {
-    title.innerHTML = '';
+    title.innerHTML = 'Work in progress';
 
     document.getElementById('Liberty').style.display = 'block';
   }
